@@ -1,0 +1,11 @@
+My primary focus was to improve the performance of the CNN by utilizing data augmentation and making modifications to
+the network architecture. I found that using simpler augmentation techniques, specifically TrivialAugment, was more
+effective than using complex methods. Increasing the number of convolutional layers and filters allowed the network to
+detect intricate patterns in the input data. Moreover, introducing an extra pooling layer further improved efficiency
+by compressing spatial dimensions while retaining essential details.
+To facilitate a more efficient optimization process, I also adjusted the step size and gamma parameters, which allowed
+the learning rate to adapt to changes in the loss landscape over time. Additionally, I implemented early stopping to
+prevent excessive training epochs and retrieve the best model. These modifications combined to improve the CNN's
+accuracy and efficiency, resulting in better recognition and classification of patterns in the input data with an
+accuracy of 59.95%.
+
